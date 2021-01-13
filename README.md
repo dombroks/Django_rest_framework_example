@@ -37,13 +37,13 @@ $mysql -u 'root' <  "employees.sql" -p
 
 You can do that by replacing the default DATABASES section with this:
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'employees',
-        'USER': 'root',
-        'PASSWORD':env_var('DB_PASS'),
-        'HOST':'0.0.0.0',
-        'PORT':''
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'employees',
+            'USER': 'root',
+            'PASSWORD':'password',
+            'HOST':'0.0.0.0',
+            'PORT':''
+        }
     }
-}
