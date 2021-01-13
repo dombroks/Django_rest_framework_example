@@ -69,3 +69,10 @@ You can do that by replacing the default DATABASES section with this:
     'employeesApp',
     'rest_framework',]
 
+- You'll will the rest of what you need in the code
+
+Note: To test the code, all what you need to do is running the server by this command:
+
+    $python manage.py runserver 0.0.0.0:8080
+
+and opening your browser and entering the url http://127.0.0.1:8080/api
