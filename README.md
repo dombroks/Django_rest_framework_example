@@ -52,3 +52,8 @@ You can do that by replacing the default DATABASES section with this:
 
     $pip install mysqlclient
     $python manage.py inspectdb > employeeApp/models.py
+
+### Make migrations then migrate
+
+    $python manage.py makemigrations
+    $python manage.py migrate
