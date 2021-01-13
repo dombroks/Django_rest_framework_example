@@ -8,31 +8,30 @@ In order to make things work perfectly you need to follow this guide:
 
 ### Virtual Environment
 
-    $sudo apt install python3-venv 
-
-python3-pip$python3 -m venv “/path to your location folder”
+    $sudo apt install python3-venv python3-pip
+    $python3 -m venv “/path to your location folder”
 
 ### Activate the virtual environment
 
-$ source <location folder>/bin/activate
+   $source <location folder>/bin/activate
   
 ### Install latest django version
   
-$pip install django
+    $pip install django
 
-$pip install djangorestframework
+    $pip install djangorestframework
 
 ### Start django project and app.
 
-$django-admin startproject backend
+    $django-admin startproject backend
 
-$ cd backend
+    $ cd backend
 
-$python manage.py startapp employee_app
+    $python manage.py startapp employee_app
 
 ### Connecte Django with MySQL DB
 
-$mysql -u 'root' <  "employees.sql" -p
+    $mysql -u 'root' <  "employees.sql" -p
 
 ### Switch the Django default Database from sqlite3 to MySQL
 
