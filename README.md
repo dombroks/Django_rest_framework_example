@@ -7,7 +7,8 @@ In order to make things work perfectly you need to follow this guide:
 ## Installation
 
 ### Virtual Environment
-$sudo apt install python3-venv 
+
+    $sudo apt install python3-venv 
 
 python3-pip$python3 -m venv “/path to your location folder”
 
