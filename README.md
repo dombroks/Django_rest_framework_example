@@ -2,7 +2,7 @@
 
 In this projet I created an API using python-based django rest framework, I used Mysql as database.
 
-To run this project you have to install djangor and python virtual environment:
+To run this project you have to install django python virtual environment...etc. You can just follow this guide:
 
 ### Virtual Environment
 $sudo apt install python3-venv 
@@ -26,3 +26,22 @@ $django-admin startproject backend
 $ cd backend
 
 $python manage.py startapp employee_app
+
+### Connecte Django with MySQL DB
+
+$mysql -u 'root' <  "employees.sql" -p
+
+### Switch the Django default Database from sqlite3 to MySQL
+
+You can do that by replacing the default DATABASES section with this:
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'employees',
+        'USER': 'root',
+        'PASSWORD':env_var('DB_PASS'),
+        'HOST':'0.0.0.0',
+        'PORT':''
+    }
+}
