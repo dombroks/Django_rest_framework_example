@@ -57,3 +57,8 @@ You can do that by replacing the default DATABASES section with this:
 
     $python manage.py makemigrations
     $python manage.py migrate
+
+### Add employeeApp & restframeword in INSTALLED_APPS (settings.py)
+
+    INSTALLED_APPS = [    'django.contrib.admin',    'django.contrib.auth',    'django.contrib.contenttypes',    'django.contrib.sessions',          'django.contrib.messages',    'django.contrib.staticfiles',    'employees_app',    'rest_framework',]
+
