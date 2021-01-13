@@ -47,3 +47,8 @@ You can do that by replacing the default DATABASES section with this:
             'PORT':''
         }
     }
+
+### Generating the models according to the database (if the db has exicting data)
+
+    $pip install mysqlclient
+    $python manage.py inspectdb > employeeApp/models.py
