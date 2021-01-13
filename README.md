@@ -2,7 +2,9 @@
 
 In this projet I created an API using python-based django rest framework, I used Mysql as database.
 
-To run this project you have to install django python virtual environment...etc. You can just follow this guide:
+In order to make things work perfectly you need to follow this guide:
+
+## Installation
 
 ### Virtual Environment
 $sudo apt install python3-venv 
