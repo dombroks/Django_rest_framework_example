@@ -23,11 +23,11 @@ In order to make things work perfectly you need to follow this guide:
 
 ### Start django project and app.
 
-    $django-admin startproject backend
+    $django-admin startproject core
 
-    $ cd backend
+    $ cd core
 
-    $python manage.py startapp employee_app
+    $python manage.py startapp employeeApp
 
 ### Connecte Django with MySQL DB
 
